@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Kivmo — Foreground timer demonstration</title>
+<style>
+body{margin:0;background:#fbf5e6;color:#403b35;font:17px/1.65 system-ui,sans-serif}
+main{max-width:780px;margin:auto;padding:40px 24px}h1{font-size:30px;line-height:1.2}
+video{display:block;max-width:100%;max-height:76vh;margin:28px auto;background:#171717;border-radius:12px}
+a{color:#765630}.meta{color:#6e685d;font-size:14px}li{margin:10px 0}
+</style>
+<main>
+<p class="meta">ComfyLife · Google Play review material · 22 October 2026</p>
+<h1>User-initiated focus and break timer</h1>
+<p>Genuine screen recording of Kivmo: Focus &amp; Tasks 1.0 (version code 17), package <code>com.livehere.focus</code>, on an isolated Android 16 emulator. There are no real user accounts or personal records in this demonstration.</p>
+<video controls preload="metadata" playsinline>
+<source src="kivmo-fgs-review.mp4" type="video/mp4">
+<track kind="captions" src="kivmo-fgs-review.vtt" srclang="en" label="English" default>
+<a href="kivmo-fgs-review.mp4">Download the MP4 demonstration</a>
+</video>
+<ol>
+<li>The user taps <strong>Start focus</strong> to begin a 25-minute countdown.</li>
+<li>The user returns to Android home. The ongoing notification shows the active timer while the app is in the background.</li>
+<li>The user taps <strong>Pause</strong> in the notification, then returns to the app to verify the paused session.</li>
+<li>The user stops the focus session, starts the optional break, then ends the break. The app returns to its idle state.</li>
+</ol>
+<p>The foreground service supports this continuous, user-visible offline timer. A delayed start would measure the wrong period; system interruption can delay completion alerts and interrupt live timer controls. Users can pause or stop the session. The service ends when the timer returns to idle.</p>
+<p class="meta">This video demonstrates the release app directly. English captions describe the actions; no app screens or interactions are simulated. The Android system UI remains in its emulator locale.</p>
+<p><a href="kivmo-fgs-review.mp4">Direct MP4 link</a> · <a href="../">Privacy policy</a></p>
+</main>
+</html>

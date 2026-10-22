@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+Kivmo 1.0 (17): offline focus and break timer
+
+00:00:03.000 --> 00:00:10.600
+User taps Start focus
+
+00:00:10.600 --> 00:00:17.300
+User returns to Android home; timer continues in background
+
+00:00:17.300 --> 00:00:28.800
+User taps Pause in ongoing notification
+
+00:00:28.800 --> 00:00:42.700
+App shows paused timer; user chooses Stop
+
+00:00:42.700 --> 00:00:48.700
+User starts the optional break timer
+
+00:00:48.700 --> 00:00:57.900
+User ends the break
+
+00:00:57.900 --> 00:01:01.400
+Timer is idle; foreground session has ended
